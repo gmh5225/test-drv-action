@@ -42,6 +42,7 @@ DriverUnload(__in DRIVER_OBJECT *DriverObject)
     // TODO
 }
 
+#pragma alloc_text(INIT, DriverEntry)
 EXTERN_C
 NTSTATUS
 DriverEntry(__in DRIVER_OBJECT *DriverObject, __in UNICODE_STRING *RegistryPath)
