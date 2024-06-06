@@ -806,7 +806,7 @@ Testintrin()
 #endif
 }
 
-#pragma alloc_text(INIT, DriverEntry)
+#pragma alloc_text(INIT, LibWinDrvDriverEntry)
 EXTERN_C
 NTSTATUS
 LibWinDrvDriverEntry(__in DRIVER_OBJECT *DriverObject, __in UNICODE_STRING *RegistryPath)
